@@ -53,10 +53,6 @@ This project systematically compares the performance of different optimization s
 *   **Knowledge Distillation** successfully trained a much smaller MobileNetV2 model (~89% smaller) that was ~2x faster while retaining a good portion of the teacher's accuracy.
 *   **Pruning** showed potential for complexity reduction, but its direct benefits in standard Keras `.h5` models require further steps (like TFLite conversion that leverages sparsity) to be fully realized in terms of size and speed.
 
-### Visualizations
-
-The project includes visualizations comparing model size vs. accuracy and inference time:
-
 ## 🛠️ Technologies Used
 
 *   **Python 3.x**
